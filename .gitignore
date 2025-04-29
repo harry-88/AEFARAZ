@@ -1,0 +1,50 @@
+# Exclude lock files
+#yarn.lock
+.yarn/install-state.gz
+package-lock.json
+
+# Exclude all package-lock.json files inside the packages folder
+packages/**/package-lock.json
+
+# Exclude all yarn.lock files inside the packages folder
+# packages/**/yarn.lock
+
+# Node.js related exclusions
+node_modules/
+dist/
+build/
+packages/api/logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yarn.lock
+
+# IDE-specific files
+*.vscode/
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+
+# Ignore ESLint cache file
+.eslintcache
+
+# Ignore per-IDE storage
+.idea/
+
+# Environment files
+.env
+
+# Package files
+package-lock.json
+*.gz
