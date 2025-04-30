@@ -1,68 +1,28 @@
 {
-  "rewrites": [
-    {
-      "source": "/index.html",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/8-marla-interior-bahria-town.html",
-      "destination": "/8-marla-interior-bahria-town.html"
-    },
-    {
-      "source": "/239-M-complete-construction-set.html",
-      "destination": "/239-M-complete-construction-set.html"
-    },
-    {
-      "source": "/animation.html",
-      "destination": "/animation.html"
-    },
-    {
-      "source": "/architecture-plans.html",
-      "destination": "/architecture-plans.html"
-    },
-    {
-      "source": "/commerical.html",
-      "destination": "/commerical.html"
-    },
-    {
-      "source": "/contact-us.html",
-      "destination": "/contact-us.html"
-    },
-    {
-      "source": "/Elevation.html",
-      "destination": "/Elevation.html"
-    },
-    {
-      "source": "/first-floor-design-kashmir.html",
-      "destination": "/first-floor-design-kashmir.html"
-    },
-    {
-      "source": "/interior.html",
-      "destination": "/interior.html"
-    },
-    {
-      "source": "/planning.html",
-      "destination": "/planning.html"
-    },
-    {
-      "source": "/visualization.html",
-      "destination": "/visualization.html"
-    },
-    {
-      "source": "/404",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/project/:slug",
-      "destination": "/project/:slug.html"
-    },
-    {
-      "source": "/:path/:subpath",
-      "destination": "/:path/:subpath.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+    "rewrites": [
+      {
+        "source": "/project/:slug*",
+        "destination": "/project/:slug*.html"
+      },
+      {
+        "source": "/:path/:subpath*",
+        "destination": "/:path/:subpath*.html"
+      },
+      {
+        "source": "/:page.html",
+        "destination": "/:page.html"
+      },
+      {
+        "source": "/:page",
+        "destination": "/:page.html"
+      },
+      {
+        "source": "/404",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/",
+        "destination": "/index.html"
+      }
+    ]
+  }
