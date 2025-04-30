@@ -11,6 +11,8 @@ packages/**/package-lock.json
 
 # Node.js related exclusions
 node_modules/
+out/
+.next/
 dist/
 build/
 packages/api/logs/
