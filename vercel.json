@@ -1,28 +1,5 @@
 {
-    "rewrites": [
-      {
-        "source": "/project/:slug*",
-        "destination": "/project/:slug*.html"
-      },
-      {
-        "source": "/:path/:subpath*",
-        "destination": "/:path/:subpath*.html"
-      },
-      {
-        "source": "/:page.html",
-        "destination": "/:page.html"
-      },
-      {
-        "source": "/:page",
-        "destination": "/:page.html"
-      },
-      {
-        "source": "/404",
-        "destination": "/index.html"
-      },
-      {
-        "source": "/",
-        "destination": "/index.html"
-      }
-    ]
-  }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
