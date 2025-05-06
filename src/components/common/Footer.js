@@ -39,10 +39,10 @@ export default function Footer() {
 
                             <div className="col-lg-2 col-md-3 col-sm-6">
                                 <div className="socialIcons">
-                                    <p>Social media</p>
+                                    {/* <p>Social media</p>
                                     <a href="https://www.facebook.com/MetaFactorialDesigns/" target='_blank'><FaFacebookSquare /></a>
                                     <a href="https://www.instagram.com/meta_factorial_designs/" target='_blank'><FaInstagram /></a>
-                                    <a href="https://www.linkedin.com/in/muhammad-faraz-b9ba4b1b0/" target='_blank'><IoLogoLinkedin /></a>
+                                    <a href="https://www.linkedin.com/in/muhammad-faraz-b9ba4b1b0/" target='_blank'><IoLogoLinkedin /></a> */}
                                     {/* <a href="https://www.youtube.com/" target='_blank'><FaSquareYoutube /></a> */}
                                 </div>
                             </div>

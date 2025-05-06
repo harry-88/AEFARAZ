@@ -10,14 +10,16 @@ export default function Header() {
         <div className="container ">
           <div className="row py-4">
             <div className="col-lg-6 col-md-12 py-5">
-              <h1 className="pt-lg-5">&quot;Crafting Elegant Interiors Where Your Dreams Reside&quot;</h1>
-              <p className="py-2">Discover hassle-free delivery, free assembly and <br/> the flexibility to rent, rent-to-own or buy.</p>
-              <button className='headerContact mb-5' onClick={()=> router.push('/contact-us')}>Contact Now <MdChevronRight /></button>
+              <h1 className="pt-lg-5">&quot;Hi there!
+                I'M <span style={{ color: "#B2535B" ,fontSize:"60px",fontFamily:' "Playfair Display", serif'}}>MUHAMMAD FARAZ </span>
+                <span > Architectural Engineer/Interior Designer</span>&quot;</h1>
+              {/* <p className="py-2"> Where creativity meets functionality to  bring your <br /> interior dreams to life.</p> */}
+              <button className='headerContact mb-5' onClick={() => router.push('/contact-us')}>Contact Now <MdChevronRight /></button>
             </div>
             <div className="col-lg-6 col-md-12 py-lg-5">
               <div className="headerImg">
 
-                <img src={`https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Homepage/intro.jpg` }/>
+                <img src={`https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Homepage/intro.jpg`} />
               </div>
             </div>
           </div>

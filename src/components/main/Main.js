@@ -8,7 +8,7 @@ export default function Main() {
         <div>
             <div className='container-fluid mainBg text-center'>
                 <div className='container py-5'>
-                    <h3>We See Your Interior’s Full Potential</h3>
+                    <h3>About Me</h3>
                     <p>
                         Bringing over 5 years of experience in the realms of architecture and interior design.
                     </p>

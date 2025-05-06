@@ -4,6 +4,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+      <link href='https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' rel='stylesheet' type='text/css' />
+
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"

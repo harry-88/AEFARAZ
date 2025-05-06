@@ -5,27 +5,6 @@ import slugify from 'slugify';
 import PdfViewer from '@/components/common/PdfViewer';
 import Link from 'next/link';
 
-export async function getStaticPaths() {
-  return {
-    paths: [], // You can add static paths here
-    fallback: 'blocking', // <-- This is important for Vercel
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const { project } = params;
-
-  // Simulated data (replace with actual fetch logic)
-  const data = {
-    title: `Project: ${project}`,
-    description: `This is the detail page for ${project}`,
-  };
-
-  return {
-    props: { data },
-  };
-}
-
 export default function ProjectDetail() {
   const [file, setFile] = useState("/Muhammad Haris.pdf");
   const router = useRouter();

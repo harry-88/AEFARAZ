@@ -6,7 +6,7 @@ export default function Service(props) {
   const data = {
     planning: {
       heading: `"Architectural Planning Services"`,
-      description: `Experience meticulous attention to detail and unparalleled expertise with my architectural planning services. Utilizing industry-leading AutoCAD software, we deliver comprehensive 2D plans, precise working drawing sets, and intricate interior detailing. Trust me to bring clarity, precision, and professionalism to every stage of your project, from conception to execution.`,
+      description: `Experience meticulous attention to detail and unparalleled expertise with my architectural planning services. Utilizing industry-leading AutoCAD software, I deliver comprehensive 2D plans, precise working drawing sets, and intricate interior detailing. Trust me to bring clarity, precision, and professionalism to every stage of your project, from conception to execution.`,
 
       img: `https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Before image.png`,
       cardHeading: `Our Planning Procces`,
@@ -18,11 +18,13 @@ export default function Service(props) {
         pdf: '/services/planning/FIRST_FLOOR_DESIGN_kashmir_project.pdf',
         url: '/first-floor-design-kashmir',
         img: '/services/planning/FIRST_FLOOR_DESIGN_kashmir_project.png',
-      }, {
-        pdf: '/services/planning/239-M_1K_COMPLETE_CONSTRUCTION_SET.pdf',
-        url:'/239-M-complete-construction-set',
-        img: '/services/planning/239-M_1K_COMPLETE_CONSTRUCTION_SET.png',
-      }],
+      },
+      //  {
+      //   pdf: '/services/planning/239-M_1K_COMPLETE_CONSTRUCTION_SET.pdf',
+      //   url:'/239-M-complete-construction-set',
+      //   img: '/services/planning/239-M_1K_COMPLETE_CONSTRUCTION_SET.png',
+      // }
+    ],
       imgs: [
         "https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Steps frame.png",
         "https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Steps frame (1).png",

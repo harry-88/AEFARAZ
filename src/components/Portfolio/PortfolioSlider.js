@@ -52,8 +52,8 @@ export default function PortfolioSlider() {
                         <div className='col-lg-5 col-md-12'>
                             <h1 className='order-lg-2 order-md-2 '>Commercial </h1>
                             <hr/>
-                            <h2>Explore Our Comprehensive Commercial Portfolio with Detailed Plans</h2>
-                            <p>Dive into our extensive collection of commercial design projects that showcase our mastery across various formats. From the dynamic and engaging animations that bring design concepts to life to detailed PDF files outlining architectural specifics, our portfolio is designed to provide a full spectrum view of our capabilities.</p>
+                            <h2>Explore My Comprehensive Commercial Portfolio with Detailed Plans</h2>
+                            <p>Dive into my extensive collection of commercial design projects that showcase my mastery across various formats. From the dynamic and engaging animations that bring design concepts to life to detailed PDF files outlining architectural specifics, my portfolio is designed to provide a full spectrum view of my capabilities.</p>
 
                         </div>
                                 {/* <div className='col-6'> <img src='/images/Homepage/commercial/APARTMENT HOTEL BUILDING DESIGN DUBAI.jpeg' style={{ width: '100%' }} /></div> */}
@@ -70,8 +70,8 @@ export default function PortfolioSlider() {
                         <div className='col-lg-5 col-md-12'>
                             <h1 className='order-lg-2 order-md-2 '>Residential </h1>
                             <hr/>
-                            <h2>Discover Elegance and Innovation in Our Residential Portfolio</h2>
-                            <p> Our portfolio spans a range of styles, offering everything from serene interior spaces to bold exterior designs, brought to life through vivid animations and meticulously prepared PDF files. Experience how our thoughtful designs transform living spaces into personalized sanctuaries that echo the unique tastes and lifestyles of our clients, all while maintaining the highest standards of quality and creativity.</p>
+                            <h2>Discover Elegance and Innovation in My Residential Portfolio</h2>
+                            <p> My portfolio spans a range of styles, offering everything from serene interior spaces to bold exterior designs, brought to life through vivid animations and meticulously prepared PDF files. Experience how my thoughtful designs transform living spaces into personalized sanctuaries that echo the unique tastes and lifestyles of my clients, all while maintaining the highest standards of quality and creativity.</p>
 
                         </div>
                         <div className='col-lg-7 col-md-12'>
@@ -87,8 +87,8 @@ export default function PortfolioSlider() {
                         <div className='col-lg-5 col-md-12'>
                             <h1 className='order-lg-2 order-md-2 '>Landscape </h1>
                             <hr/>
-                            <h2>Immerse Yourself in Nature with Our Landscape Design </h2>
-                            <p>Explore the art of outdoor living through our landscape design portfolio, which highlights our expertise in creating harmonious environments that blend form, function, and sustainability. Each project, whether a tranquil garden, a robust outdoor entertainment area, or an innovative green space, is showcased through detailed PDF files and engaging animations that capture the essence of our designs.</p>
+                            <h2>Immerse Yourself in Nature with My Landscape Design </h2>
+                            <p>Explore the art of outdoor living through our landscape design portfolio, which highlights my expertise in creating harmonious environments that blend form, function, and sustainability. Each project, whether a tranquil garden, a robust outdoor entertainment area, or an innovative green space, is showcased through detailed PDF files and engaging animations that capture the essence of my designs.</p>
 
                         </div>
                         <div className='col-lg-7 col-md-12'>
