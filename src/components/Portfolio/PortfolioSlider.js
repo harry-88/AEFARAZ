@@ -93,8 +93,8 @@ export default function PortfolioSlider() {
                         </div>
                         <div className='col-lg-7 col-md-12'>
                             <div className='row'>
-                                <div className='col-6'> <img className='spinner1'  src='/images/Homepage/landscape/1 KANAL LAWN AREA DESIGN (2) D.jpeg'  style={{ width: '100%' }} /></div>
-                                <div className='col-6'> <img className='spinner2'  src='/images/Homepage/landscape/DAYCARE PARK  LANDSCAPE DESIGN KASUR (2) D.jpeg'  style={{ width: '100%' }} /></div>
+                                <div className='col-6'> <img className='spinner1'  src='/images/Homepage/landscape/slide.jpeg'  style={{ width: '100%' }} /></div>
+                                <div className='col-6'> <img className='spinner2'  src='/images/Homepage/landscape/slide2.jpeg'  style={{ width: '100%' }} /></div>
                                 <div className='col-6 gridCardImg'> <img  className='spinner3'   src='/images/Homepage/landscape/FARMHOUSE DESIGN IN KARACHI (1).jpg' style={{ width: '100%' }} /></div>
                                 <div className='col-6 py-4'> <img  className='spinner4'  src='/images/Homepage/landscape/OUTDOOR PARK  LANDSCAPE DESIGN FOR SCHOOL (2).jpg'  style={{ width: '100%' }} /></div>
                             </div>

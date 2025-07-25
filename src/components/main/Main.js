@@ -20,7 +20,7 @@ export default function Main() {
                     </p>
                     <button className='headerContact mb-5' onClick={()=> router.push('/contact-us')} style={{ backgroundColor: 'black', color: 'white' }}>Contact Now <MdChevronRight /></button>
 
-                    <img src="https://faraz-portfolio.s3.ap-south-1.amazonaws.com/images/Homepage/slider.jpg" className='mb-4' />
+                    <img src="/images/Homepage/hero2.jpg" className='mb-4' />
                 </div>
             </div>
         </div>
